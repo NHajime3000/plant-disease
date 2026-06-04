@@ -11,8 +11,12 @@ Step2. again in CMD, change the location to the same directory where "server.py"
 
 Step3. remember the ip address appeared in the CMD windows, type in the app.
 
-本测试用flask服务器采用ollama + qwen方案
+IMPORTANT: necessary for use "server.py" and "knowledge" file together, knowledge file is RAG dataset for agent!!!
+
+本测试用flask服务器采用ollama + qwen方案,使用方式可以参考如上英文流程
 
 测试用服务器功能主要为使用自设计agent给出对应农作物疾病处理防治解决方案
 
 无测试服务器对apk的病害识别和模型性能比较功能没有影响
+
+务必按照仓库的文件结构结合knowledge文件夹使用server脚本,knowledge文件夹为agent的RAG知识库

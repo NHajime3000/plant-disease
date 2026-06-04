@@ -21,4 +21,6 @@ IMPORTANT: necessary for use "server.py" and "knowledge" file together, knowledg
 
 务必按照仓库的文件结构结合knowledge文件夹使用server脚本,knowledge文件夹为agent的RAG知识库
 
-[Demo Video](./demo.mp4)
+video demo on release
+
+release已发布video演示

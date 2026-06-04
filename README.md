@@ -20,3 +20,5 @@ IMPORTANT: necessary for use "server.py" and "knowledge" file together, knowledg
 无测试服务器对apk的病害识别和模型性能比较功能没有影响
 
 务必按照仓库的文件结构结合knowledge文件夹使用server脚本,knowledge文件夹为agent的RAG知识库
+
+[Demo Video](./demo.mp4)

@@ -123,7 +123,9 @@ def save_diagnosis_history(data, treatment):
                 "memory_mb",
                 "battery",
                 "estimated_energy_mj",
-                "treatment"
+                "treatment",
+                "use_weather"
+
             ])
 
         writer.writerow([
@@ -137,7 +139,8 @@ def save_diagnosis_history(data, treatment):
             data.get("memory_mb", ""),
             data.get("battery", ""),
             data.get("estimated_energy_mj", ""),
-            treatment
+            treatment,
+            data.get("use_weather", "")
         ])
 
 def get_disease_knowledge(prediction):
@@ -246,7 +249,8 @@ def upload():
             "model_size_mb",
             "memory_mb",
             "battery",
-            "estimated_energy_mj"
+            "estimated_energy_mj",
+            "use_weather"
         ])
 
         if not file_exists:
